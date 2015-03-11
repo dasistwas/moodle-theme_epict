@@ -1,0 +1,70 @@
+.block {
+	border: 0px solid #ccc;
+	padding: 0 0;
+	box-shadow: none;
+	background: transparent;
+	border-radius: 0px;
+}
+
+.block .header {
+
+}
+
+.block .title {
+
+}
+
+/* block titles */
+.block .title h2 {
+	font-weight: normal;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.block .content {
+	padding: 8px 10px;
+	font-weight: normal;
+}
+
+.block .header .block_action {
+	margin: 0 0;
+}
+
+/** some specific block styles for calendar block, login block, my profile block, etc. **/
+
+.block_calendar_month table.minicalendar.calendartable td,.block_calendar_month table.minicalendar.calendartable th {
+    border: none !important;
+}
+
+.block_calendar_month table.minicalendar {
+    margin-bottom: 0px !important;
+}
+
+.block_calendar_month table.minicalendar.calendartable th abbr {
+    border: none !important;
+    text-decoration: none;
+}
+
+.block_comments div.content li {
+    list-style-type: none;
+}
+
+.questionbankwindow.block {
+	padding: 0px;
+}
+
+.block_tree_box hr {
+	background: transparent;
+	border: none;
+	border-top: 1px solid #eee;
+}
+
+/*quiz editing block header */
+#page-mod-quiz-edit .questionbankwindow div.header {
+	background-color: #eee;
+	color: inherit;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header a {
+	color: inherit;
+}

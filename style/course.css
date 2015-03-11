@@ -1,0 +1,490 @@
+.coursebox > .info > h3.name, .course_category_tree .category > .info .name {
+    font-size: 120%;
+    font-weight: normal;
+    margin: 0;
+}
+
+.coursebox .content {
+	clear: none;
+}
+
+.coursebox {
+	padding: 0 0;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.course-content ul li.section.main {
+	border-bottom: 0px;
+}
+
+.site-topic ul.section, .course-content ul.section {
+	margin: 0em 0em;
+}
+
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.course-content ul.topics li.section .left, .course-content ul.topics li.section .right {
+	margin: 10px 0;
+}
+
+.course-content ul.topics li.section .left .section-handle img.icon {
+	padding: 0 6px;
+	float: left;
+}
+
+.section .activity .contentafterlink {
+	margin-top: 0;
+	font-size: 0.9em;
+}
+
+.section .activity.modtype_page .contentafterlink {
+	color: #009900;
+}
+
+
+
+#section-0.main h3.sectionname {
+    background: white;
+    color: black;
+    padding: 0;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+#section-0.main .left.side {
+	display: none;
+}
+
+
+#page {
+	font-size: 115%;
+}
+
+.course-header {
+	padding-top: 20px;
+}
+
+.course-259 #section-0.main h3.sectionname, .sectionname, h2.main, .path-mod-wiki #intro.generalbox p {
+	background: url([[pix:theme|header-epict-magenta]]) no-repeat 50% 50%;
+	background-size: 100% 80px;
+	color: #fff;
+	padding: 20px 20px 32px;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+}
+.path-mod-wiki #intro.generalbox p {
+	padding: 20px 20px 42px;
+	line-height: 40px;
+}
+h2.main {
+	background: url([[pix:theme|header-epict-green]]) no-repeat 50% 50%;
+	background-size: 100% 80px;
+}
+
+.path-mod-page h2.main, .path-mod-wiki #intro.generalbox p {
+	background-image: url([[pix:theme|header-epict-blue]]);
+}
+
+.summary ul, .summary li, .label ul, .label li {
+	padding: 0px 0px;
+	list-style-type: none;
+}
+
+.summary li, .label li {
+	padding: 5px;
+	padding-left: 20px;
+	background: url([[pix:theme|icon1]]) no-repeat 0% 8px;
+	background-size: auto 15px;
+}
+
+.modbox {
+	max-width: 350px;
+	margin: 20px auto;
+}
+
+.modbox:after {
+	content: "";
+	height: 50px;
+	display: block;
+	background: #ece3e8 url([[pix:theme|whiteshadow]]) repeat-x 0 100%;
+	background-color: rgba(236,227,232, .75);
+	-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.modbox span {
+	font-weight: 700;
+}
+
+.modbox-header, .entriesview h3.main, #page-mod-datalynx-view .entries-header h2 {
+	font-weight: 200;
+	padding: 10px 15px;
+	color: #fff; 
+	font-size: 11px;
+	background:#bc2c75 url([[pix:theme|purplestripe]]) repeat-y top right;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.entriesview h3.main, #page-mod-datalynx-view .entries-header h2 {
+	font-size: 1.2em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.modbox-content, .datalynxview-Modul_einreichen #fgroup_id_buttonarr, #page-mod-datalynx-view .entries-content .lastrow, .datalynxview-Meinen_Modulpass_erstellen_und_bearbeiten #fgroup_id_buttonarr {
+	background: url([[pix:theme|ltpurple]]);
+	padding: 20px 15px 10px;
+	font-size: 10px;
+	font-weight: 200;
+	position: relative;
+	
+	-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#page-mod-datalynx-view .entries-content .lastrow td {
+	background: transparent;
+}
+
+.modbox-content a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	 line-height: 1.1em;
+    margin: 10px 0 18px;
+}
+
+.modbox-abc {
+	position: absolute;
+	top: 10px;
+	left: 125px;
+	margin: 0 0px !important;
+}
+
+.modbox-abc a {
+	background: url([[pix:theme|dia]]) no-repeat 50% 50%;
+	color: #FFFFFF;
+    float: left;
+    font-size: 1.7em;
+    line-height: 40px;
+    margin-right: 0px;
+    min-height: 43px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.modbox-content div {
+	line-height: 1.05em;
+	margin-bottom: 20px;
+	display: inline-block;
+	text-transform: none;
+	margin: 20px 0 20px;
+	width: 95%;
+}
+
+.datalynxview-Mein_Modulpass .modbox-content div, .datalynxview-EPICTabc_Teilzertifikat .modbox-content div{
+	margin: auto auto;
+}
+
+.datalynxview-Mein_Modulpass .modbox-content .rf .rf, .datalynxview-EPICTabc_Teilzertifikat .modbox-content .rf {
+	margin: 15px 0px 20px;
+}
+
+.modbox-mod {
+	left: 145px;
+    position: absolute;
+    top: 44px;
+    margin: 0px 0px !important;
+}
+
+.modbox-mod a {
+	background: url([[pix:theme|dia]]) no-repeat 50% 50%;
+	color: #FFFFFF;
+    float: left;
+    font-size: 1.15em;
+    line-height: 12px;
+    margin-right: 0;
+    min-height: 33px;
+    min-width: 40px;
+    padding: 13px 0 0;
+    text-align: center;
+}
+
+.hex-row, .hex-row div {
+	margin: auto;
+	display: inherit;
+	width: auto;
+	padding: 0 0;
+	left: 100px;
+	top: 0px;
+}
+
+div.hex-row {
+	position: absolute;
+	margin: 0 0;
+	display: block !important;
+	top: 8px;
+	left: 100px;
+	min-width: 200px;
+}
+
+div.hex-row.passansicht {
+	top: 80px;
+}
+
+.wahlmodule div.hex-row.passansicht {
+	left: 128px;
+    top: 70px;
+}
+
+.datalynxview-EPICTabc_Teilzertifikat div.hex-row.passansicht, .datalynxview-Modulpassansicht_-_Pflichtmodule div.hex-row.passansicht {
+	top: 15px;
+}
+
+.context-1185.cmid-32 div.hex-row.passansicht{ 
+	top: 5px;
+	left: 120px;
+}
+
+div.hex-row .hex {
+	float: left;
+	display: block !important;
+	margin-right: 5px;
+}
+
+.hex-row .entriesview div.hex:first-child {
+	margin-left: -20px;
+}
+
+#page-mod-datalynx-view .modbox-content .hex-row .entriesview {
+	padding-top: 0px;
+}
+
+.downloadlink a {
+	font-size: 10px;
+	line-height: 13px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	max-width: 97px;
+	padding: 15px 5px;
+	background: url([[pix:theme|download]]) no-repeat 50% 50%;
+	margin-left: 30px;
+    margin-top: 40px;
+}
+
+.downloadlink a:hover {
+	text-decoration: none;
+}
+
+
+/*blocks */
+.eplist li, .eplist ul {
+	list-style-type: none !important;
+	margin: 0 0;
+	padding: 0 0;
+	position: relative;
+	background: transparent;
+}
+
+.eplist li {
+	display: inherit;
+}
+
+.eplist li.empty {
+	display: none;
+}
+
+.epblock.stu {
+	margin-top: 5px;
+}
+
+a.epblock, .eplist li a {
+	color: #000000;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 0px 10px 30px;
+    position: relative;
+}
+
+.eplist li a { 
+	display: inline-block;
+}
+
+a.epblock span, .eplist li span.letter {
+	color: #fff;
+	position: absolute;
+	left:0px;
+	top: 24%;
+	background: url([[pix:theme|icon2]]) no-repeat 50% 50%;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+a.epblock.men span, .eplist li span.letter {
+	background-image: url([[pix:theme|icon1]]);
+}
+
+a.epblock.ph span {
+	background-image: url([[pix:theme|icon3]]);
+}
+
+a.epblock.faq span {
+	background-image: url([[pix:theme|icon5]]);
+}
+
+/*add entry and forms */
+.entry .row-fluid .span4 {
+  text-align: right;
+}
+
+#page-mod-datalynx-embed .entriesview, #page-mod-datalynx-view .entriesview {
+	font-size: 90%;
+}
+
+.entriesview table.flexible, .entriesview .generaltable {
+	margin-bottom: 0px;
+}
+
+.entriesview td.cell.c0 {
+	text-align: left !important;
+	padding-left: 20px;
+}
+
+.datalynxview-Modul_einreichen #fgroup_id_buttonarr:nth-child(1), .datalynxview-Meinen_Modulpass_erstellen_und_bearbeiten #fgroup_id_buttonarr:nth-child(1) {
+	display: none;
+}
+.datalynxview-Modul_einreichen #fgroup_id_buttonarr, #page-mod-datalynx-view .entriesview .generaltable thead, #page-mod-datalynx-view .entries-content .lastrow, .datalynxview-Meinen_Modulpass_erstellen_und_bearbeiten #fgroup_id_buttonarr {
+	width: 70%;
+	padding-left: 0px;
+	padding-right: 0px;
+	background:#bc2c75 url([[pix:theme|purplestripe]]) repeat-y top right;
+	color: #fff;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+/* Safari and Chrome */
+ #page-mod-datalynx-view .entriesview .generaltable thead, .entriesview h3.main {
+ background:#bc2c75;
+}
+/* Safari only override */
+::i-block-chrome, #page-mod-datalynx-view .entriesview .generaltable thead, .entriesview h3.main {
+ background:#bc2c75 url([[pix:theme|purplestripe]]) repeat-y top right;
+}
+}
+
+
+
+table#explaincaps tbody > tr:nth-child(2n+1) > td, table#defineroletable tbody > tr:nth-child(2n+1) > td, table.grading-report tbody > tr:nth-child(2n+1) > td, table#listdirectories tbody > tr:nth-child(2n+1) > td, table.rolecaps tbody > tr:nth-child(2n+1) > td, table.userenrolment tbody > tr:nth-child(2n+1) > td, table#form tbody > tr:nth-child(2n+1) > td, form#movecourses table tbody > tr:nth-child(2n+1) > td, #page-admin-course-index .editcourse tbody > tr:nth-child(2n+1) > td, .forumheaderlist tbody > tr:nth-child(2n+1) > td, table.flexible tbody > tr:nth-child(2n+1) > td, .generaltable tbody > tr:nth-child(2n+1) > td, table#explaincaps tbody > tr:nth-child(2n+1) > th, table#defineroletable tbody > tr:nth-child(2n+1) > th, table.grading-report tbody > tr:nth-child(2n+1) > th, table#listdirectories tbody > tr:nth-child(2n+1) > th, table.rolecaps tbody > tr:nth-child(2n+1) > th, table.userenrolment tbody > tr:nth-child(2n+1) > th, table#form tbody > tr:nth-child(2n+1) > th, form#movecourses table tbody > tr:nth-child(2n+1) > th, #page-admin-course-index .editcourse tbody > tr:nth-child(2n+1) > th, .forumheaderlist tbody > tr:nth-child(2n+1) > th, table.flexible tbody > tr:nth-child(2n+1) > th, .generaltable tbody > tr:nth-child(2n+1) > th, .path-mod-datalynx .entry.container-fluid, #page-mod-datalynx-view form .entry {
+	background: #ccc;
+}
+
+.datalynxview-Mein_Modulpass .entriesview .cell.lastcol, .datalynxview-EPICTabc_Teilzertifikat .entriesview .cell.lastcol {
+	background: transparent;
+}
+
+table.flexible td, .generaltable td {
+	border: 0px;
+	background: #eee;
+}
+
+table.flexible th, .generaltable th, table.flexible td, .generaltable td {
+	vertical-align: middle;
+}
+
+// Datalynx specific styles
+
+.entriesview .cell.lastcol {
+	padding-top: 26px;
+}
+
+.entriesview input[type="text"], .entriesview input[type="datetime"], .entriesview input[type="datetime-local"], .entriesview input[type="date"], .entriesview input[type="number"], .entriesview input[type="email"], .entriesview input[type="url"], .entriesview td select {
+	width: 90%;
+}
+
+.path-mod-datalynx .entry.container-fluid {
+	padding: 0 0;
+}
+
+.path-mod-datalynx .entry.container-fluid .form-item, .path-mod-datalynx .entry.container-fluid .fitem {
+	margin: 0 0;
+}
+
+.path-mod-datalynx .entry.container-fluid div.row-fluid, #page-mod-datalynx-view .entry div.row-fluid {
+	padding: 15px 0px 4px;
+	font-size: 90%;
+}
+
+.path-mod-datalynx .entry.container-fluid div.row-fluid:nth-child(even), #page-mod-datalynx-view .entry div.row-fluid:nth-child(even) {
+	background: #eee;
+}
+
+.path-mod-datalynx .entry.container-fluid div.row-fluid input[type="text"] {
+	max-width: 90% !important;
+}
+
+.context-51.cmid-12 .datalynxview-Modul_einreichen #fgroup_id_buttonarr, .context-1185.cmid-32 #fgroup_id_buttonarr, .datalynxview-Meinen_Modulpass_erstellen_und_bearbeiten #fgroup_id_buttonarr {
+	width: auto;
+}
+
+.context-51.cmid-12 .datalynxview-Modul_einreichen #fgroup_id_buttonarr .felement.fgroup, .context-1185.cmid-32 #fgroup_id_buttonarr .felement.fgroup, .datalynxview-Meinen_Modulpass_erstellen_und_bearbeiten #fgroup_id_buttonarr .felement.fgroup, .datalynxview-Meinen_Modulpass_erstellen_und_bearbeiten #fgroup_id_buttonarr .felement.fgroup {
+	margin-left: auto;
+	text-align: center;
+}
+
+.context-51.cmid-12 .datalynxview-Modul_einreichen #fgroup_id_buttonarr .felement.fgroup input, .context-1185.cmid-32 #fgroup_id_buttonarr .felement.fgroup input, .datalynxview-Meinen_Modulpass_erstellen_und_bearbeiten #fgroup_id_buttonarr .felement.fgroup input{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	color: #fff;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+.entry [class*="span"]:first-child {
+	padding: 0 5px;
+}
+
+h3.main a:link, h3.main a:visited {
+	color: #fff;
+}
+
+.modbox .alert {
+	color: black;
+	background-color: transparent;
+	margin-top: 25px;
+	border: none;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	text-transform: none;
+}
+

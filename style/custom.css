@@ -1,0 +1,168 @@
+html,body {
+	margin: auto;
+	padding: 0;
+	background: #fff;
+}
+
+
+/* background: #f1eee7 url([[pix:theme|bkg]]) no-repeat 100% 0; */
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* background: #f1eee7 url([[pix:theme|bkg]]) no-repeat 100% 0; */
+
+/*link colors */
+a:link,
+a:visited, .tabtree .tabrow0 li a  {
+    color: #be2670;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #be2670;
+    text-decoration: underline;
+}
+
+a:active {
+    outline: 0;
+/* for browsers that understand */
+}
+
+a:focus {
+    outline: 0;
+/* for browsers that understand */
+}
+/* Custom CSS
+-------------------------*/
+a.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.dir-rtl a.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+.container-fluid {
+	max-width: 1100px;
+	padding-top: 10px;
+}
+
+.container-fluid2 {
+	max-width: 840px;
+}
+
+/* real main headings */
+.headingblock, .sitetopic h2 {
+  color: #000;
+  font-size: 24px;
+  border-bottom: 0px solid #eee;
+}
+
+#page-header {
+	float: none;
+	padding-bottom: 0;
+	position: relative;
+	padding-top: 0;
+}
+
+#logo {
+
+}
+
+.course-content ul.topics li.section .summary {
+	margin-left: 20px;
+}
+
+#page-footer {
+	border-top: 0px;
+}
+
+.breadcrumb {
+	font-size: 90%;
+	background: transparent;
+	margin: 5px 0;
+	padding: 8px 0;
+}
+
+@media (min-width: 1200px) {
+	.form-item .form-label, .mform .fitem div.fitemtitle, .userprofile dl.list dt, .form-horizontal .control-label {
+		width: auto;
+		max-width: 140px;
+	}
+	.form-item .form-label, .mform .fitem div.fitemtitle {
+		width: auto;
+		max-width: auto;
+	}
+	.form-item .form-setting, .form-item .form-description, .mform .fitem .felement, #page-mod-forum-search .c1, .mform .fdescription.required, .userprofile dl.list dd, .form-horizontal .controls {
+	   margin-left: 150px;
+	}
+	.form-item .form-setting, .form-item .form-description, .mform .fitem .felement, #page-mod-forum-search .c1 {
+	    margin-left: 150px;
+	}
+}
+
+@media (max-width: 980px) {
+	
+}
+
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 480px) {
+	
+}
+
+/* form elements */
+
+textarea {
+	width: auto;
+}
+
+.epict-virtuelle-ph-at .loginbox .loginsub {
+	display: none;
+	}
+	
+/* header elements */
+
+.nav-collapse.collapse {
+	clear: right;
+	width: auto;
+	max-width: 800px;
+}
+.nav > li {
+	padding: 5px;
+	display: table-cell;
+}
+
+.open  .dropdown-menu, .dropdown-menu {
+	left: auto;
+	right: auto;
+	float: right;
+	top: auto;
+}
+.nav.pull-right {
+	clear: both;
+} 
+
+
+/** modules **/
+
+#page-mod-glossary-view table.glossarycategoryheader {
+	  width: 100%;
+	}
+
+
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
